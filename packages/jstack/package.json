@@ -1,10 +1,11 @@
 {
-  "name": "jstack",
+  "name": "heystack",
   "version": "1.1.0",
-  "author": "Josh tried coding",
+  "author": "lilly.fm",
   "main": "dist/server/index.js",
   "module": "dist/server/index.mjs",
   "devDependencies": {
+    "@tryghost/content-api": "^1.11.21"
     "@cloudflare/workers-types": "^4.20241218.0",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.10.2",
@@ -20,7 +21,7 @@
     "typescript": "^5.7.2"
   },
   "peerDependencies": {
-    "zod": ">=3.24.1",
+    "arktype": "^2.1.19",
     "hono": ">=4.6.17",
     "react": ">=16.8.0"
   },
@@ -63,6 +64,6 @@
   "type": "module",
   "types": "dist/server/index.d.ts",
   "dependencies": {
-    "jstack-shared": "^0.0.3"
+    "heystack-shared": "^0.0.3"
   }
 }
