@@ -1,18 +1,18 @@
 {
-  "name": "jstack",
+  "name": "heystack",
   "version": "0.0.0",
   "description": "The stack for building seriously fast, lightweight and end-to-end typesafe Next.js apps.",
-  "author": "Josh tried coding",
+  "author": "lilly.fm",
   "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/upstash/jstack.git"
+    "url": "https://github.com/tjrb.xyz/heystack.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["jstack", "next.js", "typescript", "hono"],
+  "keywords": ["heystack", "ghost", "next.js", "typescript", "hono"],
   "dependencies": {
     "prettier": "^3.4.2"
   }
